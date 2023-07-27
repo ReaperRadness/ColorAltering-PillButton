@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      
+    <div>
+        <button  class="pill-button">
+            <div>
+                Halo
+            </div>
+        </button>
+
+    </div>
+
+</body>
+    <style>
+        body{
+            background-color: black;
+        }
+        .pill-button {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 50px;
+            color: #FFFFFF;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            background: linear-gradient(to right, #007BFF 50%,red 50%);
+            background-size: 200% 100%;
+            background-position: left;
+            transition: background-position 0.2s ease;
+        }
+
+        /* Hover effect */
+        .pill-button:hover {
+            background-position: right;
+        }
+    </style>
+</html>
